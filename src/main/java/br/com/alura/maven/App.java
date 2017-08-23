@@ -8,6 +8,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+
+        Produto produto = new Produto("Livro", 45);
+
+        System.out.println(produto.getNome() + " R$" + produto.getPreco());
     }
 }
